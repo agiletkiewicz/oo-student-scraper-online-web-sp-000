@@ -33,7 +33,6 @@ class Scraper
     }
     
     student_page.css("div.social-icon-container a").each do |social|
-      binding.pry
       link = social.values
       if link.include?("twitter")
         hash[:twitter] = link 
