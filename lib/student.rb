@@ -10,7 +10,6 @@ class Student
 
   def self.create_from_collection(students_array)
 
-    end
     
   end
 
@@ -21,5 +20,6 @@ class Student
   def self.all
     
   end
+  
 end
 
