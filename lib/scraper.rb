@@ -53,23 +53,6 @@ class Scraper
 
 end
 
-
-        # elsif link.include?("linkedin")
-        # hash[:linkedin] = link 
-        # elsif link.include?("github")
-        # hash[:github] = link
-        # elsif link.include?("flatiron")
-        # hash[:blog] = link 
-
-
-# social: student_page.css("div.social-icon-container")
-# social.css("a").attribute("href").value
-  # :twitter=> 
-  # :linkedin=> 
-  # :github=> 
-  # :blog=>
-  # :profile_quote=> student_page.css("div.profile-quote").text
-  # :bio=> student_page.css("div.description-holder p").text
   
   
   
