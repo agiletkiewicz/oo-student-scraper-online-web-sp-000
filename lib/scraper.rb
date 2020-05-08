@@ -32,12 +32,12 @@ class Scraper
       :bio => student_page.css("div.description-holder p").text
     }
     
-    if student_page.css("div.social-icon-container a").attribute("href").value.include?("twitter")
+    student_page.css("div.social-icon-container a").each do |social|
+      
+      .attribute("href").value.include?("twitter")
         hash[:twitter] = student_page.css("div.social-icon-container a").attribute("href").value
     end
-     if student_page.css("div.social-icon-container a").attribute("href").value.include?("linkedin")
-        hash[:linkedin] = student_page.css("div.social-icon-container a").attribute("href").value
-    end
+ 
     
     hash
     binding.pry
