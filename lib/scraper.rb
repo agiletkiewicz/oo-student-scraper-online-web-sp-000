@@ -42,6 +42,7 @@ class Scraper
         elsif social.attribute("href").value.include?("flatiron")
         hash[:blog] = social.attribute("href").value
     end
+  end
  
     
     hash
