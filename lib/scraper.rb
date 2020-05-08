@@ -43,8 +43,6 @@ class Scraper
         hash[:blog] = social.attribute("href").value
     end
   end
- 
-    
     hash
     
   end
