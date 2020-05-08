@@ -35,12 +35,12 @@ class Scraper
     student_page.css("div.social-icon-container a").each do |social|
       if social.values.include?("twitter")
         hash[:twitter] = social.values
-        elsif link.include?("linkedin")
-        hash[:linkedin] = link 
-        elsif link.include?("github")
-        hash[:github] = link
-        elsif link.include?("flatiron")
-        hash[:blog] = link 
+        # elsif link.include?("linkedin")
+        # hash[:linkedin] = link 
+        # elsif link.include?("github")
+        # hash[:github] = link
+        # elsif link.include?("flatiron")
+        # hash[:blog] = link 
       end
     end
     hash
