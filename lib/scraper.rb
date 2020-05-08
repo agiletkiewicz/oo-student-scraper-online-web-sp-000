@@ -40,6 +40,7 @@ class Scraper
     end
     
     hash
+    binding.pry
     
   end
 
