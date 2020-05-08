@@ -39,7 +39,7 @@ class Scraper
         hash[:linkedin] = social.attribute("href").value
         elsif social.attribute("href").value.include?("github")
         hash[:github] = social.attribute("href").value
-        elsif social.attribute("href").value.include?("flatiron")
+        else social.attribute("href").value.include?("flatiron")
         hash[:blog] = social.attribute("href").value
     end
   end
